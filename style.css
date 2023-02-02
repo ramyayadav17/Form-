@@ -1,0 +1,40 @@
+
+fieldset {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+legend {
+    font-style: italic;
+    font-weight: 300;
+    color: blue;
+}
+
+button{
+    font-weight: 600;
+    background-color: magenta;
+    border-radius: 10px;
+
+}
+input {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+@media screen and (max-width:300px) {
+    fieldset {
+        width: 200px;
+    }
+}
+#txtPwd {
+    width: 200px;
+    height: 25px;
+}
+meter {
+    width: 255px;
+    height: 25px;
+    color:yellow;
+}
