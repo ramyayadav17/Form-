@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifying Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+     <fieldset>
+        <h1>This is form for verifying Email</h1>
+        <legend>Form</legend>
+        <input type="text" id="txtEmail">
+        <button onclick="verifyEmail()" >Submit</button>
+        <h2></h2> 
+
+        <h3>Verify Password</h3>
+        <input type="password" onkeyup="verifyPassword()" id="txtPwd" class="form-controls">
+        <div id="msg"></div>
+        <div>
+            <meter id="grade" min="1" max="100""></meter>
+        </div>
+        <h2>VerifyMobile</h2>
+        <input type="tel" onkeyup="verifyMobile()" id="txtMobile">
+         <div id="mobile-error"></div>     
+
+    </fieldset>
+     
+
+    <!-- <fieldset> 
+        <legend>Your card number</legend>
+        <div class="input-group">
+            <input type="text" id="txtCard" onkeyup="verifyCard()" class="form-control">
+            <img class="img" id="cardImg" width="100" height="40">
+        </div>
+        
+    </fieldset> -->
+
+     <script src="./script.js"></script>
+
+</body>
+</html>
